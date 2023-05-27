@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CheckoutTest</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>0ae2b1c6-6d69-43c5-b11a-1dc0f602c07b</testSuiteGuid>
+   <testCaseLink>
+      <guid>325f445b-011c-41af-95f0-c668b1bde63e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC005 - Checkout Item</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>685035fc-757c-4963-b03f-633593bebf01</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Checkout Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>685035fc-757c-4963-b03f-633593bebf01</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>First_Name</value>
+         <variableId>f95269d9-e71c-410e-b91e-1b2586b16317</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>685035fc-757c-4963-b03f-633593bebf01</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Last_Name</value>
+         <variableId>2301acea-72e3-413c-9682-d249b6b067dd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>685035fc-757c-4963-b03f-633593bebf01</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Postal_Code</value>
+         <variableId>fd04e0cf-07a7-4048-aa46-127c4c2bffbc</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
