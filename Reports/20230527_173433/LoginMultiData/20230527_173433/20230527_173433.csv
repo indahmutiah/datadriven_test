@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginMultiData,Chrome 113.0.0.0,,,2023-05-27 17:34:38,2023-05-27 17:36:31,1m - 53.274s,FAILED
+,,,,,,,
+Test Cases/TC001-Login,Chrome 113.0.0.0,,,2023-05-27 17:35:00,2023-05-27 17:35:05,5.573s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 17:35:00,2023-05-27 17:35:03,2.879s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 113.0.0.0,,,2023-05-27 17:35:03,2023-05-27 17:35:04,0.691s,PASSED
+"doubleClick(findTestObject(""Object Repository/TC001/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0ab16f""))",Chrome 113.0.0.0,,,2023-05-27 17:35:04,2023-05-27 17:35:04,0.603s,PASSED
+"setText(findTestObject(""Object Repository/TC001/Page_Swag Labs/input_Swag Labs_user-name""), Username)",Chrome 113.0.0.0,,,2023-05-27 17:35:04,2023-05-27 17:35:05,1.107s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC001/Page_Swag Labs/input_Swag Labs_password""), Password)",Chrome 113.0.0.0,,,2023-05-27 17:35:05,2023-05-27 17:35:05,0.269s,FAILED
+,,,,,,,
+Test Cases/TC001-Login,Chrome 113.0.0.0,,,2023-05-27 17:35:22,2023-05-27 17:35:27,5.502s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 17:35:22,2023-05-27 17:35:25,2.810s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 113.0.0.0,,,2023-05-27 17:35:25,2023-05-27 17:35:25,0.627s,PASSED
+"doubleClick(findTestObject(""Object Repository/TC001/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0ab16f""))",Chrome 113.0.0.0,,,2023-05-27 17:35:25,2023-05-27 17:35:26,0.693s,PASSED
+"setText(findTestObject(""Object Repository/TC001/Page_Swag Labs/input_Swag Labs_user-name""), Username)",Chrome 113.0.0.0,,,2023-05-27 17:35:26,2023-05-27 17:35:27,1.043s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC001/Page_Swag Labs/input_Swag Labs_password""), Password)",Chrome 113.0.0.0,,,2023-05-27 17:35:27,2023-05-27 17:35:27,0.287s,FAILED
+,,,,,,,
+Test Cases/TC001-Login,Chrome 113.0.0.0,,,2023-05-27 17:35:44,2023-05-27 17:35:49,5.383s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 17:35:44,2023-05-27 17:35:47,2.690s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 113.0.0.0,,,2023-05-27 17:35:47,2023-05-27 17:35:47,0.765s,PASSED
+"doubleClick(findTestObject(""Object Repository/TC001/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0ab16f""))",Chrome 113.0.0.0,,,2023-05-27 17:35:47,2023-05-27 17:35:48,0.718s,PASSED
+"setText(findTestObject(""Object Repository/TC001/Page_Swag Labs/input_Swag Labs_user-name""), Username)",Chrome 113.0.0.0,,,2023-05-27 17:35:48,2023-05-27 17:35:49,0.990s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC001/Page_Swag Labs/input_Swag Labs_password""), Password)",Chrome 113.0.0.0,,,2023-05-27 17:35:49,2023-05-27 17:35:49,0.187s,FAILED
+,,,,,,,
+Test Cases/TC001-Login,Chrome 113.0.0.0,,,2023-05-27 17:36:05,2023-05-27 17:36:11,5.155s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 17:36:05,2023-05-27 17:36:08,2.615s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 113.0.0.0,,,2023-05-27 17:36:08,2023-05-27 17:36:09,0.721s,PASSED
+"doubleClick(findTestObject(""Object Repository/TC001/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0ab16f""))",Chrome 113.0.0.0,,,2023-05-27 17:36:09,2023-05-27 17:36:09,0.576s,PASSED
+"setText(findTestObject(""Object Repository/TC001/Page_Swag Labs/input_Swag Labs_user-name""), Username)",Chrome 113.0.0.0,,,2023-05-27 17:36:09,2023-05-27 17:36:10,1.004s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC001/Page_Swag Labs/input_Swag Labs_password""), Password)",Chrome 113.0.0.0,,,2023-05-27 17:36:10,2023-05-27 17:36:11,0.194s,FAILED
+,,,,,,,
+Test Cases/TC001-Login,Chrome 113.0.0.0,,,2023-05-27 17:36:26,2023-05-27 17:36:31,5.226s,FAILED
+"openBrowser("""")",Chrome 113.0.0.0,,,2023-05-27 17:36:26,2023-05-27 17:36:29,2.751s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 113.0.0.0,,,2023-05-27 17:36:29,2023-05-27 17:36:30,0.797s,PASSED
+"doubleClick(findTestObject(""Object Repository/TC001/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0ab16f""))",Chrome 113.0.0.0,,,2023-05-27 17:36:30,2023-05-27 17:36:30,0.507s,PASSED
+"setText(findTestObject(""Object Repository/TC001/Page_Swag Labs/input_Swag Labs_user-name""), Username)",Chrome 113.0.0.0,,,2023-05-27 17:36:30,2023-05-27 17:36:31,0.958s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TC001/Page_Swag Labs/input_Swag Labs_password""), Password)",Chrome 113.0.0.0,,,2023-05-27 17:36:31,2023-05-27 17:36:31,0.183s,FAILED

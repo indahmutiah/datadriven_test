@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>LoginTest</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>9ac25b64-8161-429f-bda6-0dfb3794175f</testSuiteGuid>
+   <testCaseLink>
+      <guid>6714976d-cd60-4a45-bc16-164937e9001b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC001- LoginTest</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a155c70f-81a5-4733-bbed-4c01c2551518</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Bootcamp6 Test Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>a155c70f-81a5-4733-bbed-4c01c2551518</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>98995021-f1fb-4bf3-b382-2d4328b2854b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a155c70f-81a5-4733-bbed-4c01c2551518</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>11603d04-6803-470b-ac99-f0e55f826aaf</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
