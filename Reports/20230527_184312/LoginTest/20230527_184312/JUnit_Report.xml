@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginTest" time="124.22" tests="5" failures="0" errors="0">
+   <testsuite name="LoginTest" tests="5" failures="0" errors="0" time="124.22" skipped="0" timestamp="2023-05-27 18:43:15" hostname="sepdwita - sepdwitas-air" id="Test Suites/LoginTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/cinte/git/datadriven_test/Reports/20230527_184312/LoginTest/20230527_184312"/>
+         <property name="logFiles" value="/Users/cinte/git/datadriven_test/Reports/20230527_184312/LoginTest/20230527_184312/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sepdwita - sepdwitas-air"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.64"/>
+         <property name="sessionId" value="4d304b3e24acabed61473f4eb061e262"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC003 - PassNull" time="57.181" classname="Test Cases/TC003 - PassNull" status="PASSED">
+         <system-out><![CDATA[2023-05-27 18:43:16 - [TEST_CASE][PASSED] - Test Cases/TC003 - PassNull: Test Cases/TC003 - PassNull
+
+2023-05-27 18:43:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-27 18:43:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-27 18:43:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-27 18:43:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-27 18:43:22 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-05-27 18:44:11 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-05-27 18:44:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name"), Username): Text 'standard_user' is set on object 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-27 18:44:13 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-27 18:44:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-27 18:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-27 18:44:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-27 18:44:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC003 - PassNull" time="8.616" classname="Test Cases/TC003 - PassNull" status="PASSED">
+         <system-out><![CDATA[2023-05-27 18:44:13 - [TEST_CASE][PASSED] - Test Cases/TC003 - PassNull: Test Cases/TC003 - PassNull
+
+2023-05-27 18:44:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-27 18:44:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-27 18:44:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-27 18:44:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-27 18:44:16 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-05-27 18:44:20 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-05-27 18:44:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name"), Username): Text 'problem_user' is set on object 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-27 18:44:21 - [MESSAGE][PASSED] - Text 'problem_user' is set on object 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-27 18:44:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-27 18:44:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-27 18:44:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-27 18:44:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC003 - PassNull" time="26.46" classname="Test Cases/TC003 - PassNull" status="PASSED">
+         <system-out><![CDATA[2023-05-27 18:44:22 - [TEST_CASE][PASSED] - Test Cases/TC003 - PassNull: Test Cases/TC003 - PassNull
+
+2023-05-27 18:44:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-27 18:44:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-27 18:44:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-27 18:44:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-27 18:44:25 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-05-27 18:44:47 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-05-27 18:44:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name"), Username): Text 'performance_glitch_user' is set on object 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-27 18:44:48 - [MESSAGE][PASSED] - Text 'performance_glitch_user' is set on object 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-27 18:44:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-27 18:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-27 18:44:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-27 18:44:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC003 - PassNull" time="11.059" classname="Test Cases/TC003 - PassNull" status="PASSED">
+         <system-out><![CDATA[2023-05-27 18:44:49 - [TEST_CASE][PASSED] - Test Cases/TC003 - PassNull: Test Cases/TC003 - PassNull
+
+2023-05-27 18:44:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-27 18:44:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-27 18:44:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-27 18:44:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-27 18:44:51 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-05-27 18:44:58 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-05-27 18:44:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name"), Username): Text 'locked_out_user' is set on object 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-27 18:44:59 - [MESSAGE][PASSED] - Text 'locked_out_user' is set on object 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-27 18:44:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-27 18:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-27 18:44:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-27 18:45:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC003 - PassNull" time="19.948" classname="Test Cases/TC003 - PassNull" status="PASSED">
+         <system-out><![CDATA[2023-05-27 18:45:00 - [TEST_CASE][PASSED] - Test Cases/TC003 - PassNull: Test Cases/TC003 - PassNull
+
+2023-05-27 18:45:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-05-27 18:45:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-27 18:45:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-27 18:45:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-27 18:45:02 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-05-27 18:45:18 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-05-27 18:45:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name"), Username): Text 'admin1' is set on object 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-27 18:45:19 - [MESSAGE][PASSED] - Text 'admin1' is set on object 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-05-27 18:45:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-27 18:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC003_PassNull/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-05-27 18:45:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-27 18:45:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-27 18:43:15 - [TEST_SUITE][PASSED] - LoginTest: Test Cases/TC003 - PassNull]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

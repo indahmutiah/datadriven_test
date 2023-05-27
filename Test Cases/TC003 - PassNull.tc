@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC002 - UsernameNull</name>
+   <name>TC003 - PassNull</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8e6da711-d778-4ec3-b912-5482259a8b2e</testCaseGuid>
+   <testCaseGuid>f0d98e09-657a-40a3-bf3b-3b92b55cfa80</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b075ebc3-5c25-4cca-bd42-04cda9d2eda7</variableId>
+      <variableId>c3d1a09f-97bb-4a98-8a90-5cde95f3c6aa</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b075ebc3-5c25-4cca-bd42-04cda9d2eda7</id>
+      <id>c3d1a09f-97bb-4a98-8a90-5cde95f3c6aa</id>
       <masked>false</masked>
-      <name>Password</name>
+      <name>Username</name>
    </variable>
 </TestCaseEntity>

@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>6714976d-cd60-4a45-bc16-164937e9001b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC001- LoginTest</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -37,6 +37,50 @@
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>11603d04-6803-470b-ac99-f0e55f826aaf</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>398b16a7-de8e-4199-8d70-6c9b3661b42a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/TC002 - UsernameNull</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0ed2b1b1-7c6e-4ad3-a990-31469167acec</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Bootcamp6 Test Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>0ed2b1b1-7c6e-4ad3-a990-31469167acec</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>b075ebc3-5c25-4cca-bd42-04cda9d2eda7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>45277632-03d5-41e4-8ae3-ce7fa8b08ccd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC003 - PassNull</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8dc943db-81a9-42a0-b546-44d8981b96dd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Bootcamp6 Test Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>8dc943db-81a9-42a0-b546-44d8981b96dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>c3d1a09f-97bb-4a98-8a90-5cde95f3c6aa</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
